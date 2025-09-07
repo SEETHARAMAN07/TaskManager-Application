@@ -1,0 +1,136 @@
+.admin-container {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e293b;
+    color: white;
+    padding: 15px 30px;
+  }
+  
+  .admin-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .admin-nav button {
+    margin-left: 15px;
+    padding: 8px 15px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-nav button:hover {
+    background-color: #2563eb;
+  }
+  
+  .admin-search {
+    padding: 20px 30px;
+    background-color: #f1f5f9;
+  }
+  
+  .admin-search input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #cbd5e1;
+    border-radius: 5px;
+  }
+  
+  /* FLEX LAYOUT FOR TASK BOXES */
+  .task-list-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 30px;
+  }
+  
+  .task-box {
+    background-color: #f8fafc;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .task-box h3 {
+    margin-bottom: 10px;
+    color: #1e293b;
+  }
+ 
+  /* Keep all previous styles as-is */
+
+/* Replace .task-buttons with: */
+.task-icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+  }
+  
+  .icon {
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Individual Icon Styles */
+  .view-icon {
+    color: #0ea5e9;
+    background-color: #e0f2fe;
+  }
+  
+  .view-icon:hover {
+    background-color: #bae6fd;
+  }
+  
+  .edit-icon {
+    color: #ca8a04;
+    background-color: #fef9c3;
+  }
+  
+  .edit-icon:hover {
+    background-color: #fde68a;
+  }
+  
+  .delete-icon {
+    color: #dc2626;
+    background-color: #fee2e2;
+  }
+  
+  .delete-icon:hover {
+    background-color: #fecaca;
+  }
+
+
+/* seach functionality */
+  .search-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .search-controls select,
+  .search-controls input {
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #cbd5e1;
+    border-radius: 5px;
+  }
+  
+  .search-controls select {
+    background-color: #f1f5f9;
+    cursor: pointer;
+  }
+  
+  
